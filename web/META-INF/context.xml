@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Tejprakash_Saini_Assignment2">
+    <Resource name="jdbc/murachdb" auth="Container" driverClassName="com.mysql.jdbc.Driver" 
+          url="jdbc:mysql://murachdb.c4nb0aq89o5e.us-west-2.rds.amazonaws.com:3306/murachdb?autoReconnect=true" 
+          username="root" password="murachdatabase" maxActive="100" maxIdle="30" maxWait="10000" 
+          logAbandoned="true" removeAbandoned="true" removeAbandonedTimeout="60" 
+          type="javax.sql.DataSource" />
+</Context>

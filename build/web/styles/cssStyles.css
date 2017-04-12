@@ -1,0 +1,107 @@
+/*css code for elements of all html pages.*/
+
+html input[type=button]:hover ,input[type=reset]:hover,input[type=submit]:hover{
+    cursor:pointer;  
+    text-decoration: underline ;
+}
+
+html input[type=text]:hover,input[type=email]:hover,input[type=password]:hover,input[type=date]:hover{
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+}
+
+html input[type=text]:focus,input[type=email]:focus,input[type=password]:focus,input[type=date]:focus{
+    outline: none;
+    box-shadow: 0px 0px 3px #61C5FA;
+    border-color: #0000ff;
+    animation: alternate;
+}
+
+/* home.jsp *********************************/
+#home_Section{
+    margin:20px 10% 20px 13%;
+    min-width: 1000px;
+    position: absolute;    
+}
+
+.imageResponsive{    display: block;
+                     margin: auto;
+                     width: 92%;
+                     height: auto;
+}
+
+nav#header_menu ul li a{
+    background-color:transparent ;
+
+}
+
+/*requestc.jsp css*/
+#QuestionReport_section{
+    margin-top: 10%;
+    margin-left: 40%;
+    align-content: center;
+}
+
+
+/* reportques.jsp *********************************/
+.reportquesHdng{
+    width:200px;
+    float : left;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 0px;
+    background-color: #D3D3CF;
+}
+
+.reportquesHdng h3{    
+    color:black;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-left: 20px;
+
+}
+
+.reportques{
+    width:auto;
+    float : left;
+    margin:30px;
+    margin-left:20%;
+    margin-bottom: 100px;
+}
+
+#repQuesTable{
+    width:auto;
+}
+
+.spanLeft{
+    float: left;
+    width: auto;
+    margin: 0 0 0 0;
+    size: auto;
+}
+
+.spanRight{
+    float: left;
+    width: auto;
+    margin-left: 5px;
+}
+
+/*reporth.jsp*/
+.table-responsive
+{
+    min-height:.01%;overflow-x:auto
+}
+
+#reportTable{
+    width:auto;
+    margin-left: 20%;
+}
+
+/*Question.jsp*/
+
+#radioLabel{
+    display: inline-block;
+    margin-left: 3px;
+    font-weight: bold;
+    
+}
